@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Booking Room</title>
+	
+	<!-- bootstrap -->
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+
+	<!-- libraries -->
+	<!-- <link href="css/libs/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" /> -->
+	<link href="css/libs/font-awesome.css" type="text/css" rel="stylesheet" />
+
+	<!-- global styles -->
+	<link rel="stylesheet" type="text/css" href="css/compiled/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/compiled/elements.css">
+
+	
+
+	<!-- google font libraries -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Titillium+Web:200,300,400' rel='stylesheet' type='text/css'>
+   
+
+     <script src="js/clsrooms.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link href="css/libs/font-awesome-ie7.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+</head>
+<body runat="server">
+	<header class="navbar" id="header-navbar">
+		<div class="container">
+			<a href="index.html" id="logo" class="navbar-brand col-md-3 col-sm-3 col-xs-12">
+				<img src="img/logo.png" alt=""/> <span>Room Booking App</span>
+
+			</a>
+			
+			<button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="fa fa-bars"></span>
+			</button>
+			
+			<div class="nav-no-collapse pull-right" id="header-nav">
+				<ul class="nav navbar-nav pull-right">
+					<li class="mobile-search">
+						<a class="btn">
+							<i class="fa fa-search"></i>
+						</a>
+						
+						<div  class="drowdown-search">
+							<form role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search...">
+									<i class="fa fa-search nav-search-icon"></i>
+								</div>
+							</form>
+						</div>
+						
+					
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2" id="nav-col">
+				<section id="col-left">
+					<div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-nav">	
+						<ul class="nav nav-pills nav-stacked">
+							<li class="active">
+								<a href="index.html">
+									<i class="fa fa-dashboard"></i>
+									<span>Rooms</span>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="col-md-10" id="content-wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						
+						<div class="row">
+							<div class="col-lg-3 col-sm-6 col-xs-12">
+								<div   class="main-box infographic-box">
+								
+									<span id="list-rooms" class="headline"></span>
+									<br/>
+									<span class="value"></span>
+								</div>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer-bar">
+		<p id="footer-copyright">
+			&copy; 2016 <a href="http://www.adbee.sk/" target="_blank">Andela</a>. Powered by Group 4.
+		</p>
+	</footer>
+	
+	<!-- global scripts -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+
+	<!-- theme scripts -->
+	<script src="js/scripts.js"></script>
+	
+	<!-- this page specific inline scripts -->
+	
+	
+</body>
+</html>
